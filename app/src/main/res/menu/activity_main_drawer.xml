@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_android"
+            android:icon="@drawable/ic_android_light_green_800_24dp"
+            android:title="Android" />
+        <item
+            android:id="@+id/nav_app"
+            android:icon="@drawable/ic_apps_light_green_800_24dp"
+            android:title="App" />
+        <item
+            android:id="@+id/nav_ios"
+            android:icon="@drawable/ic_phone_iphone_green_800_24dp"
+            android:title="IOS" />
+        <item
+            android:id="@+id/nav_web"
+            android:icon="@drawable/ic_personal_video_green_800_24dp"
+            android:title="前端" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_welfare"
+                android:icon="@drawable/ic_portrait_green_800_24dp"
+                android:title="福利" />
+            <item
+                android:id="@+id/nav_more"
+                android:icon="@drawable/ic_book_green_800_24dp"
+                android:title="拓展资源" />
+        </menu>
+    </item>
+
+</menu>
